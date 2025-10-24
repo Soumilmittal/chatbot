@@ -32,3 +32,44 @@ body{
     padding: 15px 22px;
     background-color: #667eea;
 }
+
+.chat-header .header-info{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.header-info svg{
+    height: 35px;
+    width: 35px;
+    padding: 6px;
+    flex-shrink: 0;
+    fill: #667eea;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.header-info .logo-text{
+    color: #fff;
+    font-size: 1.31rem;
+    font-weight: 600;    
+}
+
+.chat-header button{
+    height: 40px;
+    width: 40px;
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.9rem;
+    padding-top: 2px;
+    border-radius: 50%;
+    margin-right: -10px;
+    background: none;
+    transition: all 0.2s ease;
+}
+
+.chat-header button:hover{
+    background: #5563c1;
+}
