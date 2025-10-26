@@ -1,6 +1,5 @@
-import React from 'react'
 import ChartbotIcon from './components/ChartbotIcon';
-
+import ChatForm from './components/ChatForm';
 
 const App = () => {
   return (
@@ -32,6 +31,7 @@ const App = () => {
 
         {/* Chatbot Footer*/}
         <div className="chart-footer">
+          <ChatForm />
           <form action="" className="chat-form">
           <input type="text" placeholder='Type a message...'
           className='message-input' required/>
